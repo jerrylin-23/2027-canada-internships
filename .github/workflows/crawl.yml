@@ -1,0 +1,43 @@
+name: Auto-Crawl 2027 Internships
+
+on:
+  schedule:
+    - cron: '0 */12 * * *' # Runs every 12 hours
+  workflow_dispatch: # Allows manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci || npm install
+
+      - name: Run crawler
+        run: node crawl.js
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # Check if there are changes in README.md or jobs-history.json
+          if [ -n "$(git status --porcelain)" ]; then
+            git add README.md jobs-history.json
+            git commit -m "Auto-update internships [skip ci]"
+            git push
+          else
+            echo "No changes detected. Skipping commit."
+          fi

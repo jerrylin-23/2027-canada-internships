@@ -1,0 +1,24 @@
+{
+  "name": "2027-canada-internships",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jerrylin-23/2027-canada-internships.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jerrylin-23/2027-canada-internships/issues"
+  },
+  "homepage": "https://github.com/jerrylin-23/2027-canada-internships#readme",
+  "dependencies": {
+    "js-yaml": "^4.2.0"
+  }
+}

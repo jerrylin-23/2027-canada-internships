@@ -1,0 +1,914 @@
+[
+  {
+    "name": "Shopify",
+    "careers_url": "https://jobs.ashbyhq.com/shopify",
+    "api": "",
+    "enabled": true
+  },
+  {
+    "name": "Cohere",
+    "careers_url": "https://jobs.ashbyhq.com/cohere",
+    "api": "",
+    "enabled": true
+  },
+  {
+    "name": "Hootsuite",
+    "careers_url": "https://job-boards.greenhouse.io/hootsuite",
+    "api": "https://boards-api.greenhouse.io/v1/boards/hootsuite/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Wealthsimple",
+    "careers_url": "https://jobs.lever.co/wealthsimple",
+    "api": "",
+    "enabled": true
+  },
+  {
+    "name": "Caseware",
+    "careers_url": "https://jobs.lever.co/caseware",
+    "api": "",
+    "enabled": true
+  },
+  {
+    "name": "Faire",
+    "careers_url": "https://job-boards.greenhouse.io/faire",
+    "api": "https://boards-api.greenhouse.io/v1/boards/faire/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Ada",
+    "careers_url": "https://boards.greenhouse.io/ada",
+    "api": "https://boards-api.greenhouse.io/v1/boards/ada/jobs",
+    "enabled": true
+  },
+  {
+    "name": "D2L",
+    "careers_url": "https://job-boards.greenhouse.io/d2l",
+    "api": "https://boards-api.greenhouse.io/v1/boards/d2l/jobs",
+    "enabled": true
+  },
+  {
+    "name": "theScore",
+    "careers_url": "https://job-boards.greenhouse.io/thescore",
+    "api": "https://boards-api.greenhouse.io/v1/boards/thescore/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Konrad Group",
+    "careers_url": "https://job-boards.greenhouse.io/konradgroup",
+    "api": "https://boards-api.greenhouse.io/v1/boards/konradgroup/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Vidyard",
+    "careers_url": "https://job-boards.greenhouse.io/vidyard",
+    "api": "https://boards-api.greenhouse.io/v1/boards/vidyard/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Mejuri",
+    "careers_url": "https://job-boards.greenhouse.io/mejuri",
+    "api": "https://boards-api.greenhouse.io/v1/boards/mejuri/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Anthropic",
+    "careers_url": "https://job-boards.greenhouse.io/anthropic",
+    "api": "https://boards-api.greenhouse.io/v1/boards/anthropic/jobs",
+    "enabled": true
+  },
+  {
+    "name": "OpenAI",
+    "careers_url": "https://openai.com/careers",
+    "api": "",
+    "enabled": true
+  },
+  {
+    "name": "Perplexity",
+    "careers_url": "https://jobs.ashbyhq.com/perplexity",
+    "api": "",
+    "enabled": true
+  },
+  {
+    "name": "Vercel",
+    "careers_url": "https://job-boards.greenhouse.io/vercel",
+    "api": "https://boards-api.greenhouse.io/v1/boards/vercel/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Supabase",
+    "careers_url": "https://jobs.ashbyhq.com/supabase",
+    "api": "",
+    "enabled": true
+  },
+  {
+    "name": "Temporal",
+    "careers_url": "https://job-boards.greenhouse.io/temporal",
+    "api": "https://boards-api.greenhouse.io/v1/boards/temporal/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Arize AI",
+    "careers_url": "https://job-boards.greenhouse.io/arizeai",
+    "api": "https://boards-api.greenhouse.io/v1/boards/arizeai/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Hugging Face",
+    "careers_url": "https://apply.workable.com/huggingface/",
+    "api": "",
+    "enabled": true
+  },
+  {
+    "name": "Weights & Biases",
+    "careers_url": "https://jobs.lever.co/wandb",
+    "api": "",
+    "enabled": true
+  },
+  {
+    "name": "LangChain",
+    "careers_url": "https://jobs.ashbyhq.com/langchain",
+    "api": "",
+    "enabled": true
+  },
+  {
+    "name": "Runway",
+    "careers_url": "https://job-boards.greenhouse.io/runwayml",
+    "api": "https://boards-api.greenhouse.io/v1/boards/runwayml/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Hightouch",
+    "careers_url": "https://job-boards.greenhouse.io/hightouch",
+    "api": "https://boards-api.greenhouse.io/v1/boards/hightouch/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Retool",
+    "careers_url": "https://retool.com/careers",
+    "api": "",
+    "enabled": true
+  },
+  {
+    "name": "Airtable",
+    "careers_url": "https://job-boards.greenhouse.io/airtable",
+    "api": "https://boards-api.greenhouse.io/v1/boards/airtable/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Glean",
+    "careers_url": "https://job-boards.greenhouse.io/gleanwork",
+    "api": "https://boards-api.greenhouse.io/v1/boards/gleanwork/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Intercom",
+    "careers_url": "https://job-boards.greenhouse.io/intercom",
+    "api": "https://boards-api.greenhouse.io/v1/boards/intercom/jobs",
+    "enabled": true
+  },
+  {
+    "name": "ElevenLabs",
+    "careers_url": "https://jobs.ashbyhq.com/elevenlabs",
+    "api": "",
+    "enabled": true
+  },
+  {
+    "name": "Palantir",
+    "careers_url": "https://jobs.lever.co/palantir",
+    "api": "",
+    "enabled": true
+  },
+  {
+    "name": "Zapier",
+    "careers_url": "https://jobs.ashbyhq.com/zapier",
+    "api": "",
+    "enabled": true
+  },
+  {
+    "name": "PlanetScale",
+    "careers_url": "https://job-boards.greenhouse.io/planetscale",
+    "api": "https://boards-api.greenhouse.io/v1/boards/planetscale/jobs",
+    "enabled": true
+  },
+  {
+    "name": "WorkOS",
+    "careers_url": "https://jobs.ashbyhq.com/workos",
+    "api": "",
+    "enabled": true
+  },
+  {
+    "name": "Pinecone",
+    "careers_url": "https://jobs.ashbyhq.com/pinecone",
+    "api": "",
+    "enabled": true
+  },
+  {
+    "name": "Mistral AI",
+    "careers_url": "https://jobs.lever.co/mistral",
+    "api": "",
+    "enabled": true
+  },
+  {
+    "name": "RunPod",
+    "careers_url": "https://job-boards.greenhouse.io/runpod",
+    "api": "https://boards-api.greenhouse.io/v1/boards/runpod/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Scotiabank",
+    "careers_url": "https://jobs.scotiabank.com/go/Students-&-New-Graduates/2298417/",
+    "api": "",
+    "enabled": true
+  },
+  {
+    "name": "RBC",
+    "careers_url": "https://jobs.rbc.com/ca/en/students",
+    "api": "",
+    "enabled": true
+  },
+  {
+    "name": "Sun Life Financial",
+    "careers_url": "https://sunlife.wd3.myworkdayjobs.com/Experienced-Jobs",
+    "api": "",
+    "enabled": true
+  },
+  {
+    "name": "Intact Insurance",
+    "careers_url": "https://careers.intact.ca/ca/en/students",
+    "api": "",
+    "enabled": true
+  },
+  {
+    "name": "Loblaw Digital",
+    "careers_url": "https://job-boards.greenhouse.io/loblawdigital",
+    "api": "https://boards-api.greenhouse.io/v1/boards/loblawdigital/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Vena Solutions",
+    "careers_url": "https://job-boards.greenhouse.io/venasolutions",
+    "api": "https://boards-api.greenhouse.io/v1/boards/venasolutions/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Visier",
+    "careers_url": "https://job-boards.greenhouse.io/visiersolutionsinc",
+    "api": "https://boards-api.greenhouse.io/v1/boards/visiersolutionsinc/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Geotab",
+    "careers_url": "https://careers.geotab.com/jobs/",
+    "api": "",
+    "enabled": true
+  },
+  {
+    "name": "StackAdapt",
+    "careers_url": "https://job-boards.greenhouse.io/stackadapt-confidential",
+    "api": "https://boards-api.greenhouse.io/v1/boards/stackadapt-confidential/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Index Exchange",
+    "careers_url": "https://job-boards.greenhouse.io/indexexchangereferral",
+    "api": "https://boards-api.greenhouse.io/v1/boards/indexexchangereferral/jobs",
+    "enabled": true
+  },
+  {
+    "name": "theScore Bet",
+    "careers_url": "https://job-boards.greenhouse.io/thescore",
+    "api": "https://boards-api.greenhouse.io/v1/boards/thescore/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Properly",
+    "careers_url": "https://jobs.ashbyhq.com/properly",
+    "api": "",
+    "enabled": true
+  },
+  {
+    "name": "Float",
+    "careers_url": "https://jobs.ashbyhq.com/float",
+    "api": "",
+    "enabled": true
+  },
+  {
+    "name": "Knak",
+    "careers_url": "https://jobs.ashbyhq.com/knak",
+    "api": "",
+    "enabled": true
+  },
+  {
+    "name": "Notion",
+    "careers_url": "https://jobs.ashbyhq.com/notion",
+    "api": "",
+    "enabled": true
+  },
+  {
+    "name": "Linear",
+    "careers_url": "https://jobs.ashbyhq.com/linear",
+    "api": "",
+    "enabled": true
+  },
+  {
+    "name": "Stripe",
+    "careers_url": "https://job-boards.greenhouse.io/stripe",
+    "api": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Databricks",
+    "careers_url": "https://job-boards.greenhouse.io/databricks",
+    "api": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Snowflake",
+    "careers_url": "https://job-boards.greenhouse.io/snowflake",
+    "api": "https://boards-api.greenhouse.io/v1/boards/snowflake/jobs",
+    "enabled": true
+  },
+  {
+    "name": "dbt Labs",
+    "careers_url": "https://job-boards.greenhouse.io/dbtlabspt",
+    "api": "https://boards-api.greenhouse.io/v1/boards/dbtlabspt/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Scale AI",
+    "careers_url": "https://job-boards.greenhouse.io/scaleai",
+    "api": "https://boards-api.greenhouse.io/v1/boards/scaleai/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Modal",
+    "careers_url": "https://jobs.ashbyhq.com/modal",
+    "api": "",
+    "enabled": true
+  },
+  {
+    "name": "Groq",
+    "careers_url": "https://job-boards.greenhouse.io/groq",
+    "api": "https://boards-api.greenhouse.io/v1/boards/groq/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Together AI",
+    "careers_url": "https://jobs.ashbyhq.com/together",
+    "api": "",
+    "enabled": true
+  },
+  {
+    "name": "Cohere for AI (Research)",
+    "careers_url": "https://jobs.ashbyhq.com/cohere",
+    "api": "",
+    "enabled": false
+  },
+  {
+    "name": "Hex",
+    "careers_url": "https://jobs.ashbyhq.com/hex",
+    "api": "",
+    "enabled": true
+  },
+  {
+    "name": "Grafana Labs",
+    "careers_url": "https://job-boards.greenhouse.io/grafanalabs",
+    "api": "https://boards-api.greenhouse.io/v1/boards/grafanalabs/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Sentry",
+    "careers_url": "https://job-boards.greenhouse.io/sentry",
+    "api": "https://boards-api.greenhouse.io/v1/boards/sentry/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Rippling",
+    "careers_url": "https://job-boards.greenhouse.io/rippling",
+    "api": "https://boards-api.greenhouse.io/v1/boards/rippling/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Amplitude",
+    "careers_url": "https://job-boards.greenhouse.io/amplitude",
+    "api": "https://boards-api.greenhouse.io/v1/boards/amplitude/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Ramp",
+    "careers_url": "https://job-boards.greenhouse.io/ramp",
+    "api": "https://boards-api.greenhouse.io/v1/boards/ramp/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Brex",
+    "careers_url": "https://job-boards.greenhouse.io/brex",
+    "api": "https://boards-api.greenhouse.io/v1/boards/brex/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Figma",
+    "careers_url": "https://job-boards.greenhouse.io/figma",
+    "api": "https://boards-api.greenhouse.io/v1/boards/figma/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Cloudflare",
+    "careers_url": "https://job-boards.greenhouse.io/cloudflare",
+    "api": "https://boards-api.greenhouse.io/v1/boards/cloudflare/jobs",
+    "enabled": true
+  },
+  {
+    "name": "MongoDB",
+    "careers_url": "https://job-boards.greenhouse.io/mongodb",
+    "api": "https://boards-api.greenhouse.io/v1/boards/mongodb/jobs",
+    "enabled": true
+  },
+  {
+    "name": "DoorDash",
+    "careers_url": "https://job-boards.greenhouse.io/doordashcanada",
+    "api": "https://boards-api.greenhouse.io/v1/boards/doordashcanada/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Verkada",
+    "careers_url": "https://job-boards.greenhouse.io/verkada",
+    "api": "https://boards-api.greenhouse.io/v1/boards/verkada/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Electronic Arts (EA)",
+    "careers_url": "https://jobs.ea.com/en_US/careers/SearchJobs",
+    "api": "",
+    "enabled": true
+  },
+  {
+    "name": "Wealthsimple (Ashby)",
+    "careers_url": "https://jobs.ashbyhq.com/wealthsimple",
+    "api": "",
+    "enabled": true
+  },
+  {
+    "name": "Telus",
+    "careers_url": "https://www.telus.com/en/careers/students-grads",
+    "api": "",
+    "enabled": true
+  },
+  {
+    "name": "TouchBistro",
+    "careers_url": "https://job-boards.greenhouse.io/touchbistro",
+    "api": "https://boards-api.greenhouse.io/v1/boards/touchbistro/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Paper Education",
+    "careers_url": "https://jobs.ashbyhq.com/paper-education",
+    "api": "",
+    "enabled": true
+  },
+  {
+    "name": "Humi",
+    "careers_url": "https://job-boards.greenhouse.io/humi",
+    "api": "https://boards-api.greenhouse.io/v1/boards/humi/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Wave HQ",
+    "careers_url": "https://job-boards.greenhouse.io/wavehq",
+    "api": "https://boards-api.greenhouse.io/v1/boards/wavehq/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Achievers",
+    "careers_url": "https://job-boards.greenhouse.io/achievers",
+    "api": "https://boards-api.greenhouse.io/v1/boards/achievers/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Nuvei",
+    "careers_url": "https://job-boards.greenhouse.io/nuvei",
+    "api": "https://boards-api.greenhouse.io/v1/boards/nuvei/jobs",
+    "enabled": true
+  },
+  {
+    "name": "SOTI",
+    "careers_url": "https://job-boards.greenhouse.io/soti",
+    "api": "https://boards-api.greenhouse.io/v1/boards/soti/jobs",
+    "enabled": true
+  },
+  {
+    "name": "RateHub",
+    "careers_url": "https://jobs.lever.co/ratehub",
+    "api": "",
+    "enabled": true
+  },
+  {
+    "name": "Points.com",
+    "careers_url": "https://job-boards.greenhouse.io/points",
+    "api": "https://boards-api.greenhouse.io/v1/boards/points/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Resolver",
+    "careers_url": "https://job-boards.greenhouse.io/resolverinc",
+    "api": "https://boards-api.greenhouse.io/v1/boards/resolverinc/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Certn",
+    "careers_url": "https://jobs.ashbyhq.com/certn",
+    "api": "",
+    "enabled": true
+  },
+  {
+    "name": "Unbounce",
+    "careers_url": "https://job-boards.greenhouse.io/unbounce",
+    "api": "https://boards-api.greenhouse.io/v1/boards/unbounce/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Clio",
+    "careers_url": "https://job-boards.greenhouse.io/clio",
+    "api": "https://boards-api.greenhouse.io/v1/boards/clio/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Procurify",
+    "careers_url": "https://job-boards.greenhouse.io/procurify",
+    "api": "https://boards-api.greenhouse.io/v1/boards/procurify/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Bench Accounting",
+    "careers_url": "https://job-boards.greenhouse.io/bench",
+    "api": "https://boards-api.greenhouse.io/v1/boards/bench/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Vendasta",
+    "careers_url": "https://job-boards.greenhouse.io/vendasta",
+    "api": "https://boards-api.greenhouse.io/v1/boards/vendasta/jobs",
+    "enabled": true
+  },
+  {
+    "name": "SE Health (connected to SE Digital)",
+    "careers_url": "https://jobs.ashbyhq.com/sedigital",
+    "api": "",
+    "enabled": true
+  },
+  {
+    "name": "CPP Investments",
+    "careers_url": "https://www.cppinvestments.com/careers/students",
+    "api": "",
+    "enabled": true
+  },
+  {
+    "name": "PSP Investments",
+    "careers_url": "https://psptechjobs.com",
+    "api": "",
+    "enabled": true
+  },
+  {
+    "name": "Posthog",
+    "careers_url": "https://jobs.ashbyhq.com/posthog",
+    "api": "",
+    "enabled": true
+  },
+  {
+    "name": "Resend",
+    "careers_url": "https://jobs.ashbyhq.com/resend",
+    "api": "",
+    "enabled": true
+  },
+  {
+    "name": "Neon",
+    "careers_url": "https://jobs.ashbyhq.com/neon",
+    "api": "",
+    "enabled": true
+  },
+  {
+    "name": "Turso",
+    "careers_url": "https://jobs.ashbyhq.com/turso",
+    "api": "",
+    "enabled": true
+  },
+  {
+    "name": "Convex",
+    "careers_url": "https://job-boards.greenhouse.io/convex",
+    "api": "https://boards-api.greenhouse.io/v1/boards/convex/jobs",
+    "enabled": true
+  },
+  {
+    "name": "LaunchDarkly",
+    "careers_url": "https://job-boards.greenhouse.io/launchdarkly",
+    "api": "https://boards-api.greenhouse.io/v1/boards/launchdarkly/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Statsig",
+    "careers_url": "https://jobs.ashbyhq.com/statsig",
+    "api": "",
+    "enabled": true
+  },
+  {
+    "name": "Comet ML",
+    "careers_url": "https://jobs.ashbyhq.com/cometML",
+    "api": "",
+    "enabled": true
+  },
+  {
+    "name": "Fiddler AI",
+    "careers_url": "https://job-boards.greenhouse.io/fiddlerai",
+    "api": "https://boards-api.greenhouse.io/v1/boards/fiddlerai/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Hex",
+    "careers_url": "https://jobs.ashbyhq.com/hex",
+    "api": "",
+    "enabled": true
+  },
+  {
+    "name": "Grafana Labs",
+    "careers_url": "https://job-boards.greenhouse.io/grafanalabs",
+    "api": "https://boards-api.greenhouse.io/v1/boards/grafanalabs/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Sentry",
+    "careers_url": "https://job-boards.greenhouse.io/sentry",
+    "api": "https://boards-api.greenhouse.io/v1/boards/sentry/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Plaid",
+    "careers_url": "https://job-boards.greenhouse.io/plaid",
+    "api": "https://boards-api.greenhouse.io/v1/boards/plaid/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Affirm",
+    "careers_url": "https://job-boards.greenhouse.io/affirm",
+    "api": "https://boards-api.greenhouse.io/v1/boards/affirm/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Klarna",
+    "careers_url": "https://jobs.lever.co/klarna",
+    "api": "",
+    "enabled": true
+  },
+  {
+    "name": "Checkout.com",
+    "careers_url": "https://job-boards.greenhouse.io/checkoutcom",
+    "api": "https://boards-api.greenhouse.io/v1/boards/checkoutcom/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Rippling",
+    "careers_url": "https://job-boards.greenhouse.io/rippling",
+    "api": "https://boards-api.greenhouse.io/v1/boards/rippling/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Mercury",
+    "careers_url": "https://jobs.ashbyhq.com/mercury",
+    "api": "",
+    "enabled": true
+  },
+  {
+    "name": "Brex",
+    "careers_url": "https://job-boards.greenhouse.io/brex",
+    "api": "https://boards-api.greenhouse.io/v1/boards/brex/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Ramp",
+    "careers_url": "https://job-boards.greenhouse.io/ramp",
+    "api": "https://boards-api.greenhouse.io/v1/boards/ramp/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Verkada",
+    "careers_url": "https://job-boards.greenhouse.io/verkada",
+    "api": "https://boards-api.greenhouse.io/v1/boards/verkada/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Figma",
+    "careers_url": "https://job-boards.greenhouse.io/figma",
+    "api": "https://boards-api.greenhouse.io/v1/boards/figma/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Cloudflare",
+    "careers_url": "https://job-boards.greenhouse.io/cloudflare",
+    "api": "https://boards-api.greenhouse.io/v1/boards/cloudflare/jobs",
+    "enabled": true
+  },
+  {
+    "name": "MongoDB",
+    "careers_url": "https://job-boards.greenhouse.io/mongodb",
+    "api": "https://boards-api.greenhouse.io/v1/boards/mongodb/jobs",
+    "enabled": true
+  },
+  {
+    "name": "DoorDash (Canada)",
+    "careers_url": "https://job-boards.greenhouse.io/doordashcanada",
+    "api": "https://boards-api.greenhouse.io/v1/boards/doordashcanada/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Amplitude",
+    "careers_url": "https://job-boards.greenhouse.io/amplitude",
+    "api": "https://boards-api.greenhouse.io/v1/boards/amplitude/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Databricks",
+    "careers_url": "https://job-boards.greenhouse.io/databricks",
+    "api": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Snowflake",
+    "careers_url": "https://job-boards.greenhouse.io/snowflake",
+    "api": "https://boards-api.greenhouse.io/v1/boards/snowflake/jobs",
+    "enabled": true
+  },
+  {
+    "name": "dbt Labs",
+    "careers_url": "https://job-boards.greenhouse.io/dbtlabspt",
+    "api": "https://boards-api.greenhouse.io/v1/boards/dbtlabspt/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Scale AI",
+    "careers_url": "https://job-boards.greenhouse.io/scaleai",
+    "api": "https://boards-api.greenhouse.io/v1/boards/scaleai/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Groq",
+    "careers_url": "https://job-boards.greenhouse.io/groq",
+    "api": "https://boards-api.greenhouse.io/v1/boards/groq/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Together AI",
+    "careers_url": "https://jobs.ashbyhq.com/together",
+    "api": "",
+    "enabled": true
+  },
+  {
+    "name": "Modal",
+    "careers_url": "https://jobs.ashbyhq.com/modal",
+    "api": "",
+    "enabled": true
+  },
+  {
+    "name": "Stripe",
+    "careers_url": "https://job-boards.greenhouse.io/stripe",
+    "api": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Linear",
+    "careers_url": "https://jobs.ashbyhq.com/linear",
+    "api": "",
+    "enabled": true
+  },
+  {
+    "name": "Notion",
+    "careers_url": "https://jobs.ashbyhq.com/notion",
+    "api": "",
+    "enabled": true
+  },
+  {
+    "name": "Coursera",
+    "careers_url": "https://job-boards.greenhouse.io/coursera",
+    "api": "https://boards-api.greenhouse.io/v1/boards/coursera/jobs",
+    "enabled": true
+  },
+  {
+    "name": "HubSpot",
+    "careers_url": "https://job-boards.greenhouse.io/hubspot",
+    "api": "https://boards-api.greenhouse.io/v1/boards/hubspot/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Toast",
+    "careers_url": "https://job-boards.greenhouse.io/toast",
+    "api": "https://boards-api.greenhouse.io/v1/boards/toast/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Asana",
+    "careers_url": "https://job-boards.greenhouse.io/asana",
+    "api": "https://boards-api.greenhouse.io/v1/boards/asana/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Eventbrite",
+    "careers_url": "https://job-boards.greenhouse.io/eventbrite",
+    "api": "https://boards-api.greenhouse.io/v1/boards/eventbrite/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Grammarly",
+    "careers_url": "https://job-boards.greenhouse.io/grammarly",
+    "api": "https://boards-api.greenhouse.io/v1/boards/grammarly/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Zendesk",
+    "careers_url": "https://job-boards.greenhouse.io/zendesk",
+    "api": "https://boards-api.greenhouse.io/v1/boards/zendesk/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Okta",
+    "careers_url": "https://job-boards.greenhouse.io/okta",
+    "api": "https://boards-api.greenhouse.io/v1/boards/okta/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Gusto",
+    "careers_url": "https://job-boards.greenhouse.io/gusto",
+    "api": "https://boards-api.greenhouse.io/v1/boards/gusto/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Chime",
+    "careers_url": "https://job-boards.greenhouse.io/chime",
+    "api": "https://boards-api.greenhouse.io/v1/boards/chime/jobs",
+    "enabled": true
+  },
+  {
+    "name": "SoFi",
+    "careers_url": "https://job-boards.greenhouse.io/sofi",
+    "api": "https://boards-api.greenhouse.io/v1/boards/sofi/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Robinhood",
+    "careers_url": "https://job-boards.greenhouse.io/robinhood",
+    "api": "https://boards-api.greenhouse.io/v1/boards/robinhood/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Affirm",
+    "careers_url": "https://jobs.lever.co/affirm",
+    "api": "",
+    "enabled": true
+  },
+  {
+    "name": "Roku",
+    "careers_url": "https://job-boards.greenhouse.io/roku",
+    "api": "https://boards-api.greenhouse.io/v1/boards/roku/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Riot Games",
+    "careers_url": "https://job-boards.greenhouse.io/riotgames",
+    "api": "https://boards-api.greenhouse.io/v1/boards/riotgames/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Patreon",
+    "careers_url": "https://job-boards.greenhouse.io/patreon",
+    "api": "https://boards-api.greenhouse.io/v1/boards/patreon/jobs",
+    "enabled": true
+  },
+  {
+    "name": "SpaceX",
+    "careers_url": "https://job-boards.greenhouse.io/spacex",
+    "api": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Pinterest",
+    "careers_url": "https://job-boards.greenhouse.io/pinterest",
+    "api": "https://boards-api.greenhouse.io/v1/boards/pinterest/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Cohere",
+    "careers_url": "https://cohere.ashbyhq.com/",
+    "api": "",
+    "enabled": true
+  },
+  {
+    "name": "Persona AI",
+    "careers_url": "https://jobs.ashbyhq.com/persona-ai",
+    "api": "",
+    "enabled": true
+  },
+  {
+    "name": "HighLevel",
+    "careers_url": "https://jobs.lever.co/highlevel",
+    "api": "",
+    "enabled": true
+  }
+]
