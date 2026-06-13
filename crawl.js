@@ -107,8 +107,8 @@ function parseJobs(type, json, companyName) {
   return [];
 }
 
-// 2027 Canada Internship Filter
-function is2027CanadaInternship(job) {
+// 2027 North America Internship Filter
+function is2027NorthAmericaInternship(job) {
   const title = (job.title || '').toLowerCase();
   const location = (job.location || '').toLowerCase();
 
@@ -116,15 +116,16 @@ function is2027CanadaInternship(job) {
   const isIntern = /\bintern(ship)?s?\b|\bco-?op\b|\bcoop\b|\bstudent\b|\bfellow\b/i.test(title);
   if (!isIntern) return false;
 
-  // 2. Location Check (Canada or Remote)
-  const isCanada = /canada|toronto|waterloo|vancouver|montreal|ottawa|calgary|halifax|quebec|edmonton|winnipeg|remote/i.test(location);
-  if (!isCanada) return false;
+  // 2. Location Check (North America or Remote)
+  const isNorthAmerica = /united states|usa|\bus\b|canada|remote/i.test(location) || 
+                         /toronto|waterloo|vancouver|montreal|ottawa|calgary|edmonton|winnipeg|san francisco|new york|seattle|boston|chicago|austin|palo alto|mountain view|sunnyvale|los angeles|denver|atlanta|dallas|houston/i.test(location);
+  if (!isNorthAmerica) return false;
 
   // 3. Year/Term Check (Targeting 2027 internships, which will be posted starting mid-2026)
   const has2027 = title.includes('2027');
   const isWinter2027 = title.includes('winter') && !title.includes('2026') && !title.includes('2025');
   const isSummer2027 = title.includes('summer') && !title.includes('2026') && !title.includes('2025');
-  const isFall2027 = title.includes('fall') && !title.includes('2026') && !title.includes('2025');
+  const isFall2027 = title.includes('fall') && title.includes('2027');
 
   return has2027 || isWinter2027 || isSummer2027 || isFall2027;
 }
@@ -163,7 +164,7 @@ async function runConcurrent(tasks, limit) {
 
 async function main() {
   try {
-    console.log("Starting 2027 Canada Internship Scraper...");
+    console.log("Starting 2027 North America Internship Scraper...");
 
     // Load companies
     if (!fs.existsSync(COMPANIES_PATH)) {
@@ -195,7 +196,7 @@ async function main() {
         }
         const json = await res.json();
         const parsed = parseJobs(apiInfo.type, json, company.name);
-        const filtered = parsed.filter(is2027CanadaInternship);
+        const filtered = parsed.filter(is2027NorthAmericaInternship);
 
         activeJobs.push(...filtered);
         scannedCompanies.add(company.name);
@@ -284,9 +285,9 @@ function generateREADME(jobs, dateStr) {
     ? closedJobs.map(j => `| **${j.company}** | ${j.title} | \`${j.location}\` | 🔴 Closed | [Link ↗](${j.url}) | ${j.date_added} |`).join('\n')
     : '| - | *No closed postings yet.* | - | - | - | - |';
 
-  const content = `# 🍁 2027 Canada Internships & Co-ops
+  const content = `# 🍁 2027 North America Internships & Co-ops
 
-Automated repository tracking Software Engineering, Data Science, Product, and AI/ML internships & co-ops in Canada for **2027** (Winter, Summer, Fall).
+Automated repository tracking Software Engineering, Data Science, Product, and AI/ML internships & co-ops in North America for **2027** (Winter, Summer, Fall).
 
 > 🤖 **Automated Tracker:** This list is updated automatically every 12 hours using GitHub Actions.
 > 📅 **Last Scanned:** \`${dateStr}\`
@@ -310,7 +311,7 @@ ${closedTable}
 ---
 
 ## 🛠️ How it Works
-This repository uses a zero-token scraper script ([crawl.js](./crawl.js)) that hits Greenhouse, Lever, Ashby, and SmartRecruiters APIs directly for **150+ Canadian employers**.
+This repository uses a zero-token scraper script ([crawl.js](./crawl.js)) that hits Greenhouse, Lever, Ashby, and SmartRecruiters APIs directly for **150+ North American employers**.
 
 ### Run locally
 \`\`\`bash

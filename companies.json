@@ -910,5 +910,161 @@
     "careers_url": "https://jobs.lever.co/highlevel",
     "api": "",
     "enabled": true
+  },
+  {
+    "name": "Aquatic Capital Management",
+    "careers_url": "https://boards.greenhouse.io/aquaticcapitalmanagement",
+    "api": "https://boards-api.greenhouse.io/v1/boards/aquaticcapitalmanagement/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Citadel Securities",
+    "careers_url": "https://boards.greenhouse.io/citadelsecurities",
+    "api": "https://boards-api.greenhouse.io/v1/boards/citadelsecurities/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Citadel",
+    "careers_url": "https://boards.greenhouse.io/citadel",
+    "api": "https://boards-api.greenhouse.io/v1/boards/citadel/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Hudson River Trading",
+    "careers_url": "https://boards.greenhouse.io/hudsonrivertrading",
+    "api": "https://boards-api.greenhouse.io/v1/boards/hudsonrivertrading/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Akuna Capital",
+    "careers_url": "https://boards.greenhouse.io/akunacapital",
+    "api": "https://boards-api.greenhouse.io/v1/boards/akunacapital/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Ansatz Capital",
+    "careers_url": "https://jobs.lever.co/ansatzcapital",
+    "api": "https://api.lever.co/v0/postings/ansatzcapital",
+    "enabled": true
+  },
+  {
+    "name": "Blackedge Capital",
+    "careers_url": "https://boards.greenhouse.io/blackedgecapital",
+    "api": "https://boards-api.greenhouse.io/v1/boards/blackedgecapital/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Belvedere Trading",
+    "careers_url": "https://boards.greenhouse.io/belvederetrading",
+    "api": "https://boards-api.greenhouse.io/v1/boards/belvederetrading/jobs",
+    "enabled": true
+  },
+  {
+    "name": "DRW",
+    "careers_url": "https://boards.greenhouse.io/drw",
+    "api": "https://boards-api.greenhouse.io/v1/boards/drw/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Five Rings",
+    "careers_url": "https://boards.greenhouse.io/fiverings",
+    "api": "https://boards-api.greenhouse.io/v1/boards/fiverings/jobs",
+    "enabled": true
+  },
+  {
+    "name": "HAP Capital",
+    "careers_url": "https://boards.greenhouse.io/hapcapital",
+    "api": "https://boards-api.greenhouse.io/v1/boards/hapcapital/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Headlands Technologies",
+    "careers_url": "https://boards.greenhouse.io/headlandstech",
+    "api": "https://boards-api.greenhouse.io/v1/boards/headlandstech/jobs",
+    "enabled": true
+  },
+  {
+    "name": "IMC Trading",
+    "careers_url": "https://boards.greenhouse.io/imctrading",
+    "api": "https://boards-api.greenhouse.io/v1/boards/imctrading/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Jump Trading",
+    "careers_url": "https://boards.greenhouse.io/jumptrading",
+    "api": "https://boards-api.greenhouse.io/v1/boards/jumptrading/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Optiver US",
+    "careers_url": "https://boards.greenhouse.io/optiver",
+    "api": "https://boards-api.greenhouse.io/v1/boards/optiver/jobs",
+    "enabled": true
+  },
+  {
+    "name": "PDT Partners",
+    "careers_url": "https://boards.greenhouse.io/pdtpartners",
+    "api": "https://boards-api.greenhouse.io/v1/boards/pdtpartners/jobs",
+    "enabled": true
+  },
+  {
+    "name": "PEAK6",
+    "careers_url": "https://boards.greenhouse.io/peak6",
+    "api": "https://boards-api.greenhouse.io/v1/boards/peak6/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Radix Trading",
+    "careers_url": "https://boards.greenhouse.io/radixtrading",
+    "api": "https://boards-api.greenhouse.io/v1/boards/radixtrading/jobs",
+    "enabled": true
+  },
+  {
+    "name": "SIG (Susquehanna)",
+    "careers_url": "https://boards.greenhouse.io/susquehanna",
+    "api": "https://boards-api.greenhouse.io/v1/boards/susquehanna/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Squarepoint Capital",
+    "careers_url": "https://boards.greenhouse.io/squarepointcapital",
+    "api": "https://boards-api.greenhouse.io/v1/boards/squarepointcapital/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Tower Research Capital",
+    "careers_url": "https://boards.greenhouse.io/towerresearchcapital",
+    "api": "https://boards-api.greenhouse.io/v1/boards/towerresearchcapital/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Valkyrie Trading",
+    "careers_url": "https://boards.greenhouse.io/valkyrietrading",
+    "api": "https://boards-api.greenhouse.io/v1/boards/valkyrietrading/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Vatic Labs",
+    "careers_url": "https://boards.greenhouse.io/vaticlabs",
+    "api": "https://boards-api.greenhouse.io/v1/boards/vaticlabs/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Voleon",
+    "careers_url": "https://boards.greenhouse.io/voleon",
+    "api": "https://boards-api.greenhouse.io/v1/boards/voleon/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Voloridge",
+    "careers_url": "https://boards.greenhouse.io/voloridge",
+    "api": "https://boards-api.greenhouse.io/v1/boards/voloridge/jobs",
+    "enabled": true
+  },
+  {
+    "name": "Wolverine Trading",
+    "careers_url": "https://boards.greenhouse.io/wolverine",
+    "api": "https://boards-api.greenhouse.io/v1/boards/wolverine/jobs",
+    "enabled": true
   }
 ]
