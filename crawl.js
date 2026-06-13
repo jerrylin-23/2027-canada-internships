@@ -58,7 +58,10 @@ function detectApi(company) {
     return {
       type: 'workday',
       url: `https://${tenant}.${instance}.myworkdayjobs.com/wday/cxs/${tenant}/${site}/jobs`,
-      meta: { jobBase: `https://${tenant}.${instance}.myworkdayjobs.com/${site}` }
+      meta: { 
+        jobBase: `https://${tenant}.${instance}.myworkdayjobs.com/${site}`,
+        landingUrl: url
+      }
     };
   }
 
@@ -231,6 +234,93 @@ async function fetchWithTimeout(url, options = {}, timeout = 10000) {
   }
 }
 
+// Workday session initiator + POST request runner
+async function fetchWorkdayWithSession(landingUrl, apiEndpoint, timeout = 10000) {
+  let currentUrl = landingUrl;
+  let cookiesMap = new Map();
+  let csrfToken = null;
+  let redirectCount = 0;
+
+  // 1. GET request with manual redirect handling to collect all cookies and the CSRF token
+  while (redirectCount < 5) {
+    const headers = {
+      'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+      'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8',
+      'Accept-Language': 'en-US,en;q=0.9',
+    };
+    
+    if (cookiesMap.size > 0) {
+      const cookieStr = Array.from(cookiesMap.entries()).map(([k, v]) => `${k}=${v}`).join('; ');
+      headers['Cookie'] = cookieStr;
+    }
+
+    const res = await fetchWithTimeout(currentUrl, {
+      method: 'GET',
+      headers: headers,
+      redirect: 'manual'
+    }, timeout);
+
+    // Extract cookies
+    let setCookies = [];
+    if (typeof res.headers.getSetCookie === 'function') {
+      setCookies = res.headers.getSetCookie();
+    } else if (res.headers.raw && res.headers.raw()['set-cookie']) {
+      setCookies = res.headers.raw()['set-cookie'];
+    } else {
+      const cookieHeader = res.headers.get('set-cookie');
+      if (cookieHeader) setCookies = cookieHeader.split(/,\s*/);
+    }
+
+    for (const cookie of setCookies) {
+      const parts = cookie.split(';')[0].split('=');
+      if (parts.length >= 2) {
+        const key = parts[0].trim();
+        const val = parts.slice(1).join('=').trim();
+        cookiesMap.set(key, val);
+      }
+    }
+
+    // Extract CSRF token
+    const token = res.headers.get('x-calypso-csrf-token');
+    if (token) csrfToken = token;
+
+    if (res.status >= 300 && res.status < 400) {
+      let location = res.headers.get('location');
+      if (!location) break;
+      if (location.startsWith('/')) {
+        const parsedUrl = new URL(currentUrl);
+        location = `${parsedUrl.protocol}//${parsedUrl.host}${location}`;
+      }
+      currentUrl = location;
+      redirectCount++;
+    } else {
+      break;
+    }
+  }
+
+  const cookieStr = Array.from(cookiesMap.entries()).map(([k, v]) => `${k}=${v}`).join('; ');
+
+  // 2. POST request to jobs endpoint
+  const postHeaders = {
+    'content-type': 'application/json',
+    'accept': 'application/json',
+    'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+    'accept-language': 'en-US,en;q=0.9',
+  };
+  if (csrfToken) {
+    postHeaders['x-calypso-csrf-token'] = csrfToken;
+  }
+  if (cookieStr) {
+    postHeaders['Cookie'] = cookieStr;
+  }
+
+  return fetchWithTimeout(apiEndpoint, {
+    method: 'POST',
+    body: JSON.stringify({ "appliedFacets": {}, "limit": 20, "offset": 0, "searchText": "" }),
+    headers: postHeaders
+  }, timeout);
+}
+
 // Concurrency queue
 async function runConcurrent(tasks, limit) {
   const results = [];
@@ -286,11 +376,7 @@ async function main() {
           const text = await res.text();
           parsed = parseWorkableMarkdown(text, company.name);
         } else if (apiInfo.type === 'workday') {
-          const res = await fetchWithTimeout(apiInfo.url, {
-            method: 'POST',
-            body: JSON.stringify({ limit: 50, offset: 0, searchText: "", appliedFacets: {} }),
-            headers: { 'content-type': 'application/json', accept: 'application/json' }
-          }, 10000);
+          const res = await fetchWorkdayWithSession(apiInfo.meta.landingUrl, apiInfo.url, 10000);
           if (!res.ok) {
             console.warn(`[WARN] Failed to fetch ${company.name}: HTTP ${res.status}`);
             return;
