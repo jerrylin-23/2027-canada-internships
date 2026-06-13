@@ -51,11 +51,40 @@ function detectApi(company) {
     };
   }
 
+  // Workday
+  const wdMatch = url.match(/^https:\/\/([\w-]+)\.(wd[\w-]*)\.myworkdayjobs\.com\/(?:[a-z]{2}-[A-Z]{2}\/)?([^/?#]+)/);
+  if (wdMatch) {
+    const [, tenant, instance, site] = wdMatch;
+    return {
+      type: 'workday',
+      url: `https://${tenant}.${instance}.myworkdayjobs.com/wday/cxs/${tenant}/${site}/jobs`,
+      meta: { jobBase: `https://${tenant}.${instance}.myworkdayjobs.com/${site}` }
+    };
+  }
+
+  // Workable
+  const workableMatch = url.match(/apply\.workable\.com\/([^/?#]+)/);
+  if (workableMatch) {
+    return {
+      type: 'workable',
+      url: `https://apply.workable.com/${workableMatch[1]}/jobs.md`
+    };
+  }
+
+  // Recruitee
+  const recruiteeMatch = url.match(/([a-z0-9][a-z0-9-]*)\.recruitee\.com/);
+  if (recruiteeMatch) {
+    return {
+      type: 'recruitee',
+      url: `https://${recruiteeMatch[1]}.recruitee.com/api/offers/`
+    };
+  }
+
   return null;
 }
 
 // API Parsers
-function parseJobs(type, json, companyName) {
+function parseJobs(type, json, companyName, meta) {
   if (type === 'greenhouse') {
     const jobs = json.jobs || [];
     return jobs.map(j => ({
@@ -104,7 +133,64 @@ function parseJobs(type, json, companyName) {
     }));
   }
 
+  if (type === 'recruitee') {
+    const offers = json?.offers || [];
+    return offers.map(j => {
+      const city = j.city || '';
+      const country = j.country || '';
+      const remote = j.remote ? 'Remote' : '';
+      const location = j.location || [city, country, remote].filter(Boolean).join(', ');
+      return {
+        title: j.title || '',
+        url: j.careers_url || j.url || '',
+        company: companyName,
+        location: location || 'Canada',
+      };
+    });
+  }
+
+  if (type === 'workday') {
+    const postings = Array.isArray(json?.jobPostings) ? json.jobPostings : [];
+    return postings.map(j => ({
+      title: j.title || '',
+      url: meta && j.externalPath ? meta.jobBase + j.externalPath : '',
+      company: companyName,
+      location: j.locationsText || '',
+    }));
+  }
+
   return [];
+}
+
+function parseWorkableMarkdown(text, companyName) {
+  if (typeof text !== 'string') return [];
+  const jobs = [];
+  for (const line of text.split('\n')) {
+    if (!line.startsWith('|') || !line.includes('[View]')) continue;
+    const cols = line.split('|').map(c => c.trim());
+    if (cols.length < 8) continue;
+    const title = cols[1];
+    if (!title || title === 'Title') continue;
+    const location = cols[3] || '';
+    const urlMatch = line.match(/\[View\]\(([^)]+)\)/);
+    let url = urlMatch ? urlMatch[1] : '';
+    if (url.endsWith('.md')) url = url.slice(0, -3);
+    if (!url) continue;
+
+    try {
+      const parsedUrl = new URL(url);
+      if (parsedUrl.protocol === 'https:' && parsedUrl.hostname === 'apply.workable.com') {
+        url = parsedUrl.href;
+      } else {
+        continue;
+      }
+    } catch {
+      continue;
+    }
+
+    jobs.push({ title, url, location, company: companyName });
+  }
+  return jobs;
 }
 
 // 2027 North America Internship Filter
@@ -126,8 +212,9 @@ function is2027NorthAmericaInternship(job) {
   const isWinter2027 = title.includes('winter') && !title.includes('2026') && !title.includes('2025');
   const isSummer2027 = title.includes('summer') && !title.includes('2026') && !title.includes('2025');
   const isFall2027 = title.includes('fall') && title.includes('2027');
+  const isYearRound = /year-round|year\s+round|rolling|evergreen|pipeline/i.test(title);
 
-  return has2027 || isWinter2027 || isSummer2027 || isFall2027;
+  return has2027 || isWinter2027 || isSummer2027 || isFall2027 || isYearRound;
 }
 
 // Fetch helper with timeout
@@ -189,13 +276,37 @@ async function main() {
       if (!apiInfo) return;
 
       try {
-        const res = await fetchWithTimeout(apiInfo.url, {}, 10000);
-        if (!res.ok) {
-          console.warn(`[WARN] Failed to fetch ${company.name}: HTTP ${res.status}`);
-          return;
+        let parsed = [];
+        if (apiInfo.type === 'workable') {
+          const res = await fetchWithTimeout(apiInfo.url, {}, 10000);
+          if (!res.ok) {
+            console.warn(`[WARN] Failed to fetch ${company.name}: HTTP ${res.status}`);
+            return;
+          }
+          const text = await res.text();
+          parsed = parseWorkableMarkdown(text, company.name);
+        } else if (apiInfo.type === 'workday') {
+          const res = await fetchWithTimeout(apiInfo.url, {
+            method: 'POST',
+            body: JSON.stringify({ limit: 50, offset: 0, searchText: "", appliedFacets: {} }),
+            headers: { 'content-type': 'application/json', accept: 'application/json' }
+          }, 10000);
+          if (!res.ok) {
+            console.warn(`[WARN] Failed to fetch ${company.name}: HTTP ${res.status}`);
+            return;
+          }
+          const json = await res.json();
+          parsed = parseJobs(apiInfo.type, json, company.name, apiInfo.meta);
+        } else {
+          const res = await fetchWithTimeout(apiInfo.url, {}, 10000);
+          if (!res.ok) {
+            console.warn(`[WARN] Failed to fetch ${company.name}: HTTP ${res.status}`);
+            return;
+          }
+          const json = await res.json();
+          parsed = parseJobs(apiInfo.type, json, company.name, apiInfo.meta);
         }
-        const json = await res.json();
-        const parsed = parseJobs(apiInfo.type, json, company.name);
+
         const filtered = parsed.filter(is2027NorthAmericaInternship);
 
         activeJobs.push(...filtered);

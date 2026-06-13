@@ -1066,5 +1066,35 @@
     "careers_url": "https://boards.greenhouse.io/wolverine",
     "api": "https://boards-api.greenhouse.io/v1/boards/wolverine/jobs",
     "enabled": true
+  },
+  {
+    "name": "TD Bank",
+    "careers_url": "https://td.wd5.myworkdayjobs.com/TD_Careers",
+    "api": "",
+    "enabled": true
+  },
+  {
+    "name": "BMO",
+    "careers_url": "https://bmo.wd5.myworkdayjobs.com/External",
+    "api": "",
+    "enabled": true
+  },
+  {
+    "name": "CIBC",
+    "careers_url": "https://cibc.wd5.myworkdayjobs.com/cibc_external_careers",
+    "api": "",
+    "enabled": true
+  },
+  {
+    "name": "National Bank of Canada",
+    "careers_url": "https://bnc.wd3.myworkdayjobs.com/nbc_careers",
+    "api": "",
+    "enabled": true
+  },
+  {
+    "name": "Manulife",
+    "careers_url": "https://manulife.wd3.myworkdayjobs.com/MFCExternal",
+    "api": "",
+    "enabled": true
   }
 ]
