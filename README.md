@@ -16,6 +16,25 @@ Automated repository tracking Software Engineering, Data Science, Product, and A
 
 ---
 
+## 🔄 Year-Round & Student Pipelines
+
+Major tech, quant, and finance year-round application portals:
+
+| Company | Portal Link | Description |
+|---------|-------------|-------------|
+| **Google** | [Google Students ↗](https://buildyourfuture.withgoogle.com/) | Student internships, scholarships, and opportunities |
+| **Microsoft** | [Microsoft Students ↗](https://careers.microsoft.com/us/en/student-programs) | Internships and full-time opportunities for students & new grads |
+| **Apple** | [Apple Students ↗](https://www.apple.com/careers/us/students.html) | Summer internships and co-op placements |
+| **Meta** | [Meta Careers for Students ↗](https://www.metacareers.com/areas-of-work/students/) | Meta University and student internships |
+| **Amazon** | [Amazon Student Programs ↗](https://www.amazon.jobs/en/business_categories/student-programs) | Global software development and tech internships |
+| **Tesla** | [Tesla Internships ↗](https://www.tesla.com/careers/internships) | Year-round rolling internships (Spring, Summer, Fall) |
+| **NVIDIA** | [NVIDIA Students ↗](https://www.nvidia.com/en-us/about-nvidia/careers/students/) | Internship programs in AI, gaming, and deep learning |
+| **Bloomberg** | [Bloomberg Early Careers ↗](https://www.bloomberg.com/company/careers/early-careers/) | Tech and software engineering early careers programs |
+| **Jane Street** | [Jane Street Positions ↗](https://www.janestreet.com/join-jane-street/position-finder/) | Quantitative trading and engineering rolling applications |
+| **Citadel** | [Citadel Student Careers ↗](https://www.citadel.com/careers/students/) | Software engineering and quant internships |
+
+---
+
 ## 🔒 Closed Postings (0)
 
 | Company | Role | Location | Status | Link | Date Added |
