@@ -3,7 +3,7 @@
 Automated repository tracking Software Engineering, Data Science, Product, and AI/ML internships & co-ops in North America for **2027** (Winter, Summer, Fall).
 
 > 🤖 **Automated Tracker:** This list is updated automatically every 12 hours using GitHub Actions.
-> 📅 **Last Scanned:** `2026-06-15`
+> 📅 **Last Scanned:** `2026-06-16`
 
 ---
 
