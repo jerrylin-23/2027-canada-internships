@@ -56,14 +56,6 @@
     "date_added": "2026-06-17"
   },
   {
-    "title": "Co-op/Intern, Product Management - Summer 2026",
-    "url": "https://careers.hootsuite.com/job/?gh_jid=7942387",
-    "company": "Hootsuite",
-    "location": "Toronto, Canada",
-    "status": "Active",
-    "date_added": "2026-06-17"
-  },
-  {
     "title": "Software Engineer Intern (Fall 2026)",
     "url": "https://jobs.ashbyhq.com/notion/5b15697c-fa91-4511-9482-c98a6ff29f90",
     "company": "Notion",
@@ -256,14 +248,6 @@
     "date_added": "2026-06-17"
   },
   {
-    "title": "AI Software Engineering Intern - Fall 2026",
-    "url": "https://job-boards.greenhouse.io/verkada/jobs/5117760007",
-    "company": "Verkada",
-    "location": "San Mateo, CA United States",
-    "status": "Active",
-    "date_added": "2026-06-17"
-  },
-  {
     "title": "Backend Software Engineering Intern - Fall 2026",
     "url": "https://job-boards.greenhouse.io/verkada/jobs/5099422007",
     "company": "Verkada",
@@ -320,6 +304,14 @@
     "date_added": "2026-06-13"
   },
   {
+    "title": "Co-op/Intern, Product Management - Summer 2026",
+    "url": "https://careers.hootsuite.com/job/?gh_jid=7942387",
+    "company": "Hootsuite",
+    "location": "Toronto, Canada",
+    "status": "Closed",
+    "date_added": "2026-06-17"
+  },
+  {
     "title": "Master's Fall Machine Learning Internship (ATG - Visual Search)",
     "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7253017",
     "company": "Pinterest",
@@ -340,6 +332,14 @@
     "url": "https://www.tower-research.com/open-positions/?gh_jid=6653745",
     "company": "Tower Research Capital",
     "location": "Montreal",
+    "status": "Closed",
+    "date_added": "2026-06-17"
+  },
+  {
+    "title": "AI Software Engineering Intern - Fall 2026",
+    "url": "https://job-boards.greenhouse.io/verkada/jobs/5117760007",
+    "company": "Verkada",
+    "location": "San Mateo, CA United States",
     "status": "Closed",
     "date_added": "2026-06-17"
   }

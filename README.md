@@ -1,13 +1,13 @@
-# 🍁 North America Internships & Co-ops
+# 🍁 2027 North America Internships & Co-ops
 
 Automated repository tracking Software Engineering, Data Science, Product, and AI/ML internships & co-ops in North America for **2027** (Winter, Summer, Fall).
 
 > 🤖 **Automated Tracker:** This list is updated automatically every 12 hours using GitHub Actions.
-> 📅 **Last Scanned:** `2026-06-17`
+> 📅 **Last Scanned:** `2026-06-18`
 
 ---
 
-## 📈 Active Postings (40)
+## 📈 Active Postings (38)
 
 | Company | Role | Location | Status | Link | Date Added |
 |---------|------|----------|--------|------|------------|
@@ -18,7 +18,6 @@ Automated repository tracking Software Engineering, Data Science, Product, and A
 | **Databricks** | PhD GenAI Research Scientist Intern | `San Francisco, California` | 🟢 Active | [Apply ↗](https://databricks.com/company/careers/open-positions/job?gh_jid=7011263002) | 2026-06-17 |
 | **Faire** | Data Science Intern | `San Francisco, CA` | 🟢 Active | [Apply ↗](https://boards.greenhouse.io/faire/jobs/8376377002?gh_jid=8376377002) | 2026-06-17 |
 | **Glean** | Product Management Intern, Admin Console (Summer 2026) | `Mountain View, CA` | 🟢 Active | [Apply ↗](https://job-boards.greenhouse.io/gleanwork/jobs/4699772005) | 2026-06-17 |
-| **Hootsuite** | Co-op/Intern, Product Management - Summer 2026 | `Toronto, Canada` | 🟢 Active | [Apply ↗](https://careers.hootsuite.com/job/?gh_jid=7942387) | 2026-06-17 |
 | **Notion** | Software Engineer Intern (Fall 2026) | `San Francisco, California` | 🟢 Active | [Apply ↗](https://jobs.ashbyhq.com/notion/5b15697c-fa91-4511-9482-c98a6ff29f90) | 2026-06-17 |
 | **Palantir** | Forward Deployed Software Engineer, Internship - France | `New York, NY` | 🟢 Active | [Apply ↗](https://jobs.lever.co/palantir/ac0dc094-2480-43c2-8495-26ade227ff4f) | 2026-06-17 |
 | **Palantir** | Forward Deployed Software Engineer, Internship - Poland | `New York, NY` | 🟢 Active | [Apply ↗](https://jobs.lever.co/palantir/d582cd84-14fd-4aa3-b413-15982d286bd9) | 2026-06-17 |
@@ -43,7 +42,6 @@ Automated repository tracking Software Engineering, Data Science, Product, and A
 | **Stripe** | PhD Data Scientist, Intern | `Toronto, Ontario, Canada` | 🟢 Active | [Apply ↗](https://stripe.com/jobs/search?gh_jid=7285974) | 2026-06-17 |
 | **Stripe** | Privacy Fellow | `Seattle, WA; San Francisco, CA` | 🟢 Active | [Apply ↗](https://stripe.com/jobs/search?gh_jid=7834218) | 2026-06-17 |
 | **Tower Research Capital** | Quantitative Trader Intern (PhD 2026) | `New York` | 🟢 Active | [Apply ↗](https://www.tower-research.com/open-positions/?gh_jid=7062370) | 2026-06-17 |
-| **Verkada** | AI Software Engineering Intern - Fall 2026 | `San Mateo, CA United States` | 🟢 Active | [Apply ↗](https://job-boards.greenhouse.io/verkada/jobs/5117760007) | 2026-06-17 |
 | **Verkada** | Backend Software Engineering Intern - Fall 2026 | `San Mateo, CA United States` | 🟢 Active | [Apply ↗](https://job-boards.greenhouse.io/verkada/jobs/5099422007) | 2026-06-17 |
 | **Verkada** | Frontend Software Engineering Intern - Fall 2026 | `San Mateo, CA United States` | 🟢 Active | [Apply ↗](https://job-boards.greenhouse.io/verkada/jobs/5099529007) | 2026-06-17 |
 | **Verkada** | Hardware Engineer (Fall Co-op) | `San Mateo, CA United States` | 🟢 Active | [Apply ↗](https://job-boards.greenhouse.io/verkada/jobs/4321159007) | 2026-06-17 |
@@ -73,13 +71,15 @@ Major tech, quant, and finance year-round application portals:
 
 ---
 
-## 🔒 Closed Postings (3)
+## 🔒 Closed Postings (5)
 
 | Company | Role | Location | Status | Link | Date Added |
 |---------|------|----------|--------|------|------------|
+| **Hootsuite** | Co-op/Intern, Product Management - Summer 2026 | `Toronto, Canada` | 🔴 Closed | [Link ↗](https://careers.hootsuite.com/job/?gh_jid=7942387) | 2026-06-17 |
 | **Pinterest** | Master's Fall Machine Learning Internship (ATG - Visual Search) | `San Francisco, CA, US; Palo Alto, CA, US; Seattle, WA, US; New York, NY, US` | 🔴 Closed | [Link ↗](https://www.pinterestcareers.com/jobs/?gh_jid=7253017) | 2026-06-17 |
 | **Tower Research Capital** | Quantitative Researcher Intern | `New York` | 🔴 Closed | [Link ↗](https://www.tower-research.com/open-positions/?gh_jid=7238472) | 2026-06-17 |
 | **Tower Research Capital** | Stagiaire en développement de logiciels (été 2026) / Software Developer Intern (Summer 2026) | `Montreal` | 🔴 Closed | [Link ↗](https://www.tower-research.com/open-positions/?gh_jid=6653745) | 2026-06-17 |
+| **Verkada** | AI Software Engineering Intern - Fall 2026 | `San Mateo, CA United States` | 🔴 Closed | [Link ↗](https://job-boards.greenhouse.io/verkada/jobs/5117760007) | 2026-06-17 |
 
 ---
 
