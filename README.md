@@ -1,7 +1,7 @@
 # 🍁 North America Tech Internships & Co-ops (Rolling)
 
 [![Scraper Status](https://img.shields.io/badge/scraper-automated-blueviolet?style=flat-square)](https://github.com/jerrylin-23/2027-canada-internships/actions)
-[![Active Postings](https://img.shields.io/badge/active%20postings-43-green?style=flat-square)](#-active-postings-43)
+[![Active Postings](https://img.shields.io/badge/active%20postings-42-green?style=flat-square)](#-active-postings-42)
 [![Last Scanned](https://img.shields.io/badge/last%20scanned-2026-06-28-blue?style=flat-square)](https://github.com/jerrylin-23/2027-canada-internships)
 [![GitHub stars](https://img.shields.io/github/stars/jerrylin-23/2027-canada-internships?style=social)](https://github.com/jerrylin-23/2027-canada-internships/stargazers)
 
@@ -12,13 +12,12 @@ An automated repository tracking Software Engineering (SWE), Machine Learning (M
 
 ---
 
-## 📈 Active Postings (43)
+## 📈 Active Postings (42)
 
 | Company | Role | Location | Status | Link | Date Added |
 |---------|------|----------|--------|------|------------|
 | **RBC** | Intern | `Rochester, New York, United States of America` | 🟢 Active | [Apply ↗](https://rbc.wd3.myworkdayjobs.com/RBCEARLYTALENT1/job/Rochester-New-York-United-States-of-America/Intern_R-0000178588-1) | 2026-06-27 |
 | **Verkada** | Global Sourcing Specialist (Co-op) | `San Mateo, CA United States` | 🟢 Active | [Apply ↗](https://job-boards.greenhouse.io/verkada/jobs/5175755007) | 2026-06-27 |
-| **TD Bank** | Business Management Analyst Intern/Co-op (Fall 2026) Preferred Candidate | `Toronto, Ontario` | 🟢 Active | [Apply ↗](https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Toronto-Ontario/Business-Management-Analyst-Intern-Co-op--Fall-2026-_R_1481051) | 2026-06-25 |
 | **BMO** | Administrative Assistant Intern (Co-op/Internship), Fall 2026, Montreal - 4 months | `MONTREAL, QC, CAN` | 🟢 Active | [Apply ↗](https://bmo.wd3.myworkdayjobs.com/External/job/MONTREAL-QC-CAN/Administrative-Assistant-Intern--Co-op-Internship---Fall-2026--Montreal---4-months_R260018871) | 2026-06-24 |
 | **BMO** | Marketing Coordinator, Fall 2026 (Co-op/Internship) - 8 Months | `Toronto, ON, CAN` | 🟢 Active | [Apply ↗](https://bmo.wd3.myworkdayjobs.com/External/job/Toronto-ON-CAN/Marketing-Coordinator--Fall-2026--Co-op-Internship----8-Months_R260018818) | 2026-06-24 |
 | **RBC** | 2026 Fall Student Opportunities Technology & Operations - Software Developer, 8 Months | `HALIFAX, Nova Scotia, Canada` | 🟢 Active | [Apply ↗](https://rbc.wd3.myworkdayjobs.com/RBCEARLYTALENT1/job/HALIFAX-Nova-Scotia-Canada/XMLNAME-2026-Fall-Student-Opportunities-Technology---Operations---Software-Developer--8-Months_R-0000168529) | 2026-06-24 |
@@ -81,10 +80,11 @@ Major tech, quant, and finance year-round application portals:
 
 ---
 
-## 🔒 Closed Postings (19)
+## 🔒 Closed Postings (20)
 
 | Company | Role | Location | Status | Link | Date Added |
 |---------|------|----------|--------|------|------------|
+| **TD Bank** | Business Management Analyst Intern/Co-op (Fall 2026) Preferred Candidate | `Toronto, Ontario` | 🔴 Closed | [Link ↗](https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Toronto-Ontario/Business-Management-Analyst-Intern-Co-op--Fall-2026-_R_1481051) | 2026-06-25 |
 | **BMO** | Private Wealth Administrative Assistant - Waterloo, Fall 2026 (Co-op/Internship) - 4 months | `Waterloo, ON, CAN` | 🔴 Closed | [Link ↗](https://bmo.wd3.myworkdayjobs.com/External/job/Waterloo-ON-CAN/Private-Wealth-Administrative-Assistant---Waterloo--Fall-2026--Co-op-Internship----4-months_R260017845) | 2026-06-20 |
 | **BMO** | Transaction Coordinator, Corporate Real Estate - Fall 2026 (Co-op/Internship) - 4 Months | `Toronto, ON, CAN` | 🔴 Closed | [Link ↗](https://bmo.wd3.myworkdayjobs.com/External/job/Toronto-ON-CAN/Transaction-Coordinator--Corporate-Real-Estate---Fall-2026--Co-op-Internship----4-Months_R260017904) | 2026-06-20 |
 | **BMO** | Corporate Real Estate Workplace Services  - Fall 2026 (Co-op/Internship) - 4 Months | `Toronto, ON, CAN` | 🔴 Closed | [Link ↗](https://bmo.wd3.myworkdayjobs.com/External/job/Toronto-ON-CAN/Corporate-Real-Estate-Workplace-Services----Fall-2026--Co-op-Internship----4-Months_R260018014) | 2026-06-20 |
