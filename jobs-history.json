@@ -1,5 +1,53 @@
 [
   {
+    "title": "Forward Deployed Software Engineer, Internship - Commercial",
+    "url": "https://jobs.lever.co/palantir/4d29249a-d7e8-4c39-880d-3b35d7b2f6f6",
+    "company": "Palantir",
+    "location": "New York, NY",
+    "status": "Active",
+    "date_added": "2026-06-29"
+  },
+  {
+    "title": "Software Engineer, Internship",
+    "url": "https://jobs.lever.co/palantir/373eb939-6f57-4836-8479-be79a5e07249",
+    "company": "Palantir",
+    "location": "Denver, CO",
+    "status": "Active",
+    "date_added": "2026-06-29"
+  },
+  {
+    "title": "Software Engineer, Internship - Defense Tech",
+    "url": "https://jobs.lever.co/palantir/8bcf4f33-0a79-4248-bbfd-49ac4be9dd8e",
+    "company": "Palantir",
+    "location": "New York, NY",
+    "status": "Active",
+    "date_added": "2026-06-29"
+  },
+  {
+    "title": "Software Engineer, Internship - Infrastructure",
+    "url": "https://jobs.lever.co/palantir/b229baac-494b-4a0d-9a13-2e38806e06f3",
+    "company": "Palantir",
+    "location": "New York, NY",
+    "status": "Active",
+    "date_added": "2026-06-29"
+  },
+  {
+    "title": "Software Engineer, Internship - Production Infrastructure",
+    "url": "https://jobs.lever.co/palantir/373367a9-3160-49d8-b7af-2efec062fad1",
+    "company": "Palantir",
+    "location": "Seattle, WA",
+    "status": "Active",
+    "date_added": "2026-06-29"
+  },
+  {
+    "title": "Wealth Management Intern",
+    "url": "https://rbc.wd3.myworkdayjobs.com/RBCEARLYTALENT1/job/Boulder-Colorado-United-States-of-America/Wealth-Management-Intern_R-0000175466-1",
+    "company": "RBC",
+    "location": "Boulder, Colorado, United States of America",
+    "status": "Active",
+    "date_added": "2026-06-29"
+  },
+  {
     "title": "Intern",
     "url": "https://rbc.wd3.myworkdayjobs.com/RBCEARLYTALENT1/job/Rochester-New-York-United-States-of-America/Intern_R-0000178588-1",
     "company": "RBC",
@@ -54,22 +102,6 @@
     "location": "Toronto, ON, CAN",
     "status": "Active",
     "date_added": "2026-06-22"
-  },
-  {
-    "title": "Data Engineer, Fall 2026 (Co-op/Internship) - 4 months",
-    "url": "https://bmo.wd3.myworkdayjobs.com/External/job/Toronto-ON-CAN/Data-Engineer--Fall-2026--Co-op-Internship----4-months_R260018081-1",
-    "company": "BMO",
-    "location": "Toronto, ON, CAN",
-    "status": "Active",
-    "date_added": "2026-06-20"
-  },
-  {
-    "title": "Actuarial Analyst, Pricing (Co-op/Internship) - 4 months",
-    "url": "https://bmo.wd3.myworkdayjobs.com/External/job/Toronto-ON-CAN/Actuarial-Analyst--Pricing--Co-op-Internship----4-months_R260014092",
-    "company": "BMO",
-    "location": "Toronto, ON, CAN",
-    "status": "Active",
-    "date_added": "2026-06-20"
   },
   {
     "title": "Internship (No intern program at this time)",
@@ -342,6 +374,22 @@
     "location": "Toronto, Ontario",
     "status": "Closed",
     "date_added": "2026-06-25"
+  },
+  {
+    "title": "Data Engineer, Fall 2026 (Co-op/Internship) - 4 months",
+    "url": "https://bmo.wd3.myworkdayjobs.com/External/job/Toronto-ON-CAN/Data-Engineer--Fall-2026--Co-op-Internship----4-months_R260018081-1",
+    "company": "BMO",
+    "location": "Toronto, ON, CAN",
+    "status": "Closed",
+    "date_added": "2026-06-20"
+  },
+  {
+    "title": "Actuarial Analyst, Pricing (Co-op/Internship) - 4 months",
+    "url": "https://bmo.wd3.myworkdayjobs.com/External/job/Toronto-ON-CAN/Actuarial-Analyst--Pricing--Co-op-Internship----4-months_R260014092",
+    "company": "BMO",
+    "location": "Toronto, ON, CAN",
+    "status": "Closed",
+    "date_added": "2026-06-20"
   },
   {
     "title": "Private Wealth Administrative Assistant - Waterloo, Fall 2026 (Co-op/Internship) - 4 months",
