@@ -1,8 +1,8 @@
 # 🍁 North America Tech Internships & Co-ops (Rolling)
 
 [![Scraper Status](https://img.shields.io/badge/scraper-automated-blueviolet?style=flat-square)](https://github.com/jerrylin-23/2027-canada-internships/actions)
-[![Active Postings](https://img.shields.io/badge/active%20postings-48-green?style=flat-square)](#-active-postings-48)
-[![Last Scanned](https://img.shields.io/badge/last%20scanned-2026-06-30-blue?style=flat-square)](https://github.com/jerrylin-23/2027-canada-internships)
+[![Active Postings](https://img.shields.io/badge/active%20postings-49-green?style=flat-square)](#-active-postings-49)
+[![Last Scanned](https://img.shields.io/badge/last%20scanned-2026-07-01-blue?style=flat-square)](https://github.com/jerrylin-23/2027-canada-internships)
 [![GitHub stars](https://img.shields.io/github/stars/jerrylin-23/2027-canada-internships?style=social)](https://github.com/jerrylin-23/2027-canada-internships/stargazers)
 
 An automated repository tracking Software Engineering (SWE), Machine Learning (ML), Data Science (DS), Quantitative Research/Trading, and Product Management internships & co-ops in Canada and the United States (Rolling & Year-Round).
@@ -12,10 +12,11 @@ An automated repository tracking Software Engineering (SWE), Machine Learning (M
 
 ---
 
-## 📈 Active Postings (48)
+## 📈 Active Postings (49)
 
 | Company | Role | Location | Status | Link | Date Added |
 |---------|------|----------|--------|------|------------|
+| **TD Bank** | Actuarial Intern / Co-Op - Preferred Candidate | `Toronto, Ontario` | 🟢 Active | [Apply ↗](https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Toronto-Ontario/Actuarial-Intern---Co-Op_R_1496340) | 2026-07-01 |
 | **Palantir** | Privacy and Civil Liberties Software Engineer, Internship | `New York, NY` | 🟢 Active | [Apply ↗](https://jobs.lever.co/palantir/09846827-b931-4a9f-bd64-c3bb8860187b) | 2026-06-30 |
 | **Toast** | MBA Intern - AI Ops Transformation | `Boston, MA` | 🟢 Active | [Apply ↗](https://careers.toasttab.com/jobs?gh_jid=7909139) | 2026-06-30 |
 | **Palantir** | Forward Deployed Software Engineer, Internship - Commercial | `New York, NY` | 🟢 Active | [Apply ↗](https://jobs.lever.co/palantir/4d29249a-d7e8-4c39-880d-3b35d7b2f6f6) | 2026-06-29 |
